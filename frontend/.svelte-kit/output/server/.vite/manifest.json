@@ -1,0 +1,103 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_film-store.js": {
+    "file": "chunks/film-store.js",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "entries/fallbacks/layout.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/films/+layout.svelte": {
+    "file": "entries/pages/films/_layout.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/films/+layout.svelte"
+  },
+  "src/routes/films/+page.svelte": {
+    "file": "entries/pages/films/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_film-store.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/films/+page.svelte"
+  },
+  "src/routes/films/[id]/+page.js": {
+    "file": "entries/pages/films/_id_/_page.js",
+    "isEntry": true,
+    "src": "src/routes/films/[id]/+page.js"
+  },
+  "src/routes/films/[id]/+page.svelte": {
+    "file": "entries/pages/films/_id_/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_film-store.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/films/[id]/+page.svelte"
+  },
+  "src/routes/films/add/+page.svelte": {
+    "file": "entries/pages/films/add/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/films/add/+page.svelte"
+  }
+}
